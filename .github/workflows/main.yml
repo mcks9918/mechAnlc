@@ -1,0 +1,17 @@
+- name: Universal APK Builder Update
+  # You may pin to the exact commit or the version.
+  # uses: yoshuaandrean/universal-apk@fda4b456f5adc379ca46d738c06b31ebd8778f0e
+  uses: yoshuaandrean/universal-apk@v1.5
+  with:
+    # Path to input *.aab file
+    aab_path: 
+    # Path to directory where outputs are stored
+    output_dir: # optional, default is output
+    # Path to keystore file (*.jks)
+    keystore_path: 
+    # Keystore password
+    keystore_password: 
+    # Keystore alias
+    keystore_alias: 
+    # Keystore alias password
+    keystore_alias_password: 
